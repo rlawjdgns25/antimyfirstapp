@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>환영합니다 - 프리미엄 앱</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- 배경 요소 -->
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+
+    <div class="container">
+        <h1>로그인 성공!</h1>
+        <p class="subtitle" id="welcome-message">환영합니다, 사용자님.</p>
+
+        <div class="user-info" style="margin-bottom: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 12px; text-align: left;">
+            <p style="color: var(--text-muted); font-size: 0.9rem;">이메일: <span id="user-email" style="color: var(--white);"></span></p>
+        </div>
+
+        <button type="button" id="logout-btn" style="background: var(--secondary);">로그아웃</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
