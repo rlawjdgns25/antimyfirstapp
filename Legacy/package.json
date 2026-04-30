@@ -1,0 +1,12 @@
+{
+  "name": "antimyfirstapp",
+  "version": "1.0.0",
+  "description": "Premium App with LocalStorage Login and Signup",
+  "main": "index.html",
+  "scripts": {
+    "start": "echo \"Error: no start script\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
